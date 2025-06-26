@@ -17,7 +17,7 @@ def obtener_datos_json():
      http://127.0.0.1:5000/datos_json
     """
     datos = {
-        "Situacion": "No se que estoy haciendo",
+        "Situacion": "No se que estoy haciendo xd",
         "Sentimiento": "Acabada y media, frustrada, lo que sigue",
         "Podre con esto?": "Espero que si",
         "YO Puedo con todo?": "Claro que yes",
