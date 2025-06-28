@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 500 - Error Interno del Servidor</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        
+    
+        body {
+            background-image: none; 
+            background-color: #001f3f; 
+        }
+        .error-content-container {
+            
+            background-color: rgba(0, 31, 63, 0.9); 
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(243, 156, 18, 0.6); 
+            padding: 50px;
+            margin: 50px auto; 
+            max-width: 600px;
+            text-align: center;
+        }
+        .error-content-container h1 {
+            font-size: 5em; 
+            color: #f39c12; 
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+        }
+        .error-content-container p {
+            font-size: 1.3em;
+            color: #bbdefb; 
+            margin-bottom: 25px;
+        }
+        .error-content-container a {
+            font-size: 1.1em;
+            color: #6dd5ed; 
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #6dd5ed;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .error-content-container a:hover {
+            background-color: #6dd5ed;
+            color: #001f3f;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-content-container">
+        <h1>500</h1>
+        <p>Oh no algo salio mal en el corazon de la magia.</p>
+        <p>Un encantamiento fallo en el servidor.</p>
+        <p>Estamos trabajando para restaurar el orden por favor, inténtalo de nuevo mas tarde.</p>
+        <p><a href="/">Volver al Bestiario Principal</a></p>
+    </div>
+</body>
+</html>
