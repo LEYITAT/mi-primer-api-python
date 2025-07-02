@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error 404 - Mapa Perdido</title>
+    <title>Error 400 - Hechizo Fallido</title>
     <style>
         body {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            background-color: #001f3f;
-            color: #e0f7fa;
+            background-color: #001f3f; 
+            color: #e0f7fa; 
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
             min-height: 100vh;
-            background-image: linear-gradient(to bottom, #001f3f, #0b3d91);
+            background-image: linear-gradient(to bottom, #001f3f, #0b3d91); 
         }
         .container {
             background-color: rgba(0, 31, 63, 0.8); 
@@ -30,7 +30,7 @@
         }
         h1 {
             color: #ff6b6b; 
-            font-size: 4em;
+            font-size: 3.5em;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px #000000;
             animation: pulse 2s infinite alternate;
@@ -47,6 +47,18 @@
             margin-bottom: 15px;
             text-shadow: 1px 1px 2px #000000;
             color: #bbdefb; 
+        }
+        ul {
+            text-align: left;
+            margin: 20px auto;
+            max-width: 400px;
+            list-style-type: disc;
+            padding-left: 20px;
+            color: #bbdefb; 
+            text-shadow: 1px 1px 2px #000000;
+        }
+        li {
+            margin-bottom: 8px;
         }
         a {
             color: #b3e5fc; 
@@ -76,11 +88,16 @@
 </head>
 <body>
     <div class="container">
-        <div class="icon">🗺️❓</div>
-        <h1>¡Oops!</h1>
-        <h2>Error 404 - Sendero Desconocido</h2>
-        <p>Lo sentimos, el camino mágico que buscas no aparece en nuestro mapa.</p>
-        <p>Puede que hayas anotado mal las coordenadas o que el sendero haya desaparecido.</p>
+        <div class="icon">✨🚫</div>
+        <h1>Error 400</h1>
+        <h2>Hechizo Fallido</h2>
+        <p>Parece que tu encantamiento no fue pronunciado correctamente. Esto podría deberse a:</p>
+        <ul>
+            <li>Ingredientes (parámetros) faltantes o incorrectos.</li>
+            <li>Fórmulas (datos) enviadas en un formato no esperado.</li>
+            <li>Un error en el pergamino (la sintaxis de la URL).</li>
+        </ul>
+        <p>Por favor, revisa tu grimorio mágico e intenta de nuevo.</p>
         <p><a href="/">Volver al Bosque Encantado</a></p>
     </div>
 </body>

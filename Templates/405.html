@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error 404 - Mapa Perdido</title>
+    <title>Error 405 - Camino Prohibido</title>
     <style>
         body {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            background-color: #001f3f;
-            color: #e0f7fa;
+            background-color: #001f3f; 
+            color: #e0f7fa; 
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
             min-height: 100vh;
-            background-image: linear-gradient(to bottom, #001f3f, #0b3d91);
+            background-image: linear-gradient(to bottom, #001f3f, #0b3d91); 
         }
         .container {
             background-color: rgba(0, 31, 63, 0.8); 
@@ -30,7 +30,7 @@
         }
         h1 {
             color: #ff6b6b; 
-            font-size: 4em;
+            font-size: 3.5em;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px #000000;
             animation: pulse 2s infinite alternate;
@@ -76,11 +76,11 @@
 </head>
 <body>
     <div class="container">
-        <div class="icon">🗺️❓</div>
-        <h1>¡Oops!</h1>
-        <h2>Error 404 - Sendero Desconocido</h2>
-        <p>Lo sentimos, el camino mágico que buscas no aparece en nuestro mapa.</p>
-        <p>Puede que hayas anotado mal las coordenadas o que el sendero haya desaparecido.</p>
+        <div class="icon">⛔</div>
+        <h1>¡Error 405!</h1>
+        <h2>Acceso Denegado</h2>
+        <p>Has intentado abrir esta puerta con la llave equivocada (método HTTP).</p>
+        <p>Los guardianes de este sendero solo permiten ciertos pases. Por favor, verifica el método correcto para acceder a este lugar mágico.</p>
         <p><a href="/">Volver al Bosque Encantado</a></p>
     </div>
 </body>
